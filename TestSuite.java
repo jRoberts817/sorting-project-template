@@ -60,8 +60,8 @@ public class TestSuite
     public static boolean checkResults(int[] sorted, int[] unsorted)
     {
         // Uncomment for debug.
-        //System.out.println("    Unsorted: " + Arrays.toString(unsorted));
-        //System.out.println("    Sorted:   " + Arrays.toString(sorted));
+        System.out.println("    Unsorted: " + Arrays.toString(unsorted));
+        System.out.println("    Sorted:   " + Arrays.toString(sorted));
 
         // Ensure that the array length is the same.
         if (sorted.length != unsorted.length)
