@@ -5,11 +5,11 @@ public class InsertionSort implements Sorter {
             int temp = input[i];
             int j = i - 1;
 
-            while(j >= 0 && input[j] > key){
+            while(j >= 0 && input[j] > temp){
                 input[j+1] = input[j];
                 j--;
             }
-            input[j-1] = temp;
+            input[j+1] = temp;
         }
     }
 }

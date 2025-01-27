@@ -2,7 +2,7 @@ public class SelectionSort implements Sorter {
 
     public void sort(int[] input) {
         int temp;
-        int ind;
+        int ind = 0;
         int fin = Integer.MAX_VALUE;
         for(int i = 0; i<input.length-1; i++){
             fin = Integer.MAX_VALUE;
